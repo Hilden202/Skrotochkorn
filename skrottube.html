@@ -5,26 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media sida</title>
-    <style>
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        video {
-            max-width: 100%;
-            height: auto;
-        }
-        iframe {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <div style="text-align: center; background-color: rgba(182, 133, 42, 0.528); padding: 20px;">
 
-        <img src="images/skrottube.jpg" alt="robotonskroten" width="600">
+        <img src="images/skrottube.jpg" alt="robotonskroten" width="600" class="mainimg">
         <h1>Skrot och Korn AB</h1>
         <a href="index.html">Startsida</a>
         <a href="products.html">Produkter</a>
@@ -42,13 +30,13 @@
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <video width="560" controls>
-                <source src="videos/rally.mov" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <video width="560" controls>
+            <source src="videos/rally.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
     <div style="text-align: center; background-color: rgba(182, 133, 42, 0.528); padding: 20px;">
-    <iframe src="Contactus.html" width="500" height="350" style="border: none;"></iframe>
+        <iframe src="Contactus.html" width="500" height="350" style="border: none;"></iframe>
     </div>
 </body>
 

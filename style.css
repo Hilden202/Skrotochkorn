@@ -1,0 +1,21 @@
+/* img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+video {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.mainimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
