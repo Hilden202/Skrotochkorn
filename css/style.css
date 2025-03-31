@@ -31,6 +31,12 @@ h1 {
     margin: 20px 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
+.menu-container {
+    display: flex;
+    justify-content: center; /* Centrerar knapparna */
+    gap: 10px; /* Mellanrum mellan knappar */
+    flex-wrap: wrap; /* Ser till att knapparna inte överlappar på små skärmar */
+}
 .menubutton{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
