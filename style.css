@@ -22,3 +22,37 @@ video iframe {
     border-style: ridge;
     border-radius: 20px;
 }
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.menubutton{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: #595340;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 12px;
+    border: #000000 3px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    
+}
+
+.menubutton:hover {
+    background-color: #7a7a5c;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #00ff40;;
+}
