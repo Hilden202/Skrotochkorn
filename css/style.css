@@ -15,6 +15,7 @@ video iframe {
 }
 
 .mainimg {
+    width: 40%;
     max-width: 100%;
     height: auto;
     text-align: center;
