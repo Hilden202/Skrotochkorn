@@ -6,7 +6,12 @@
     padding: 20px;
     background-attachment: fixed;
     flex-wrap: wrap;
-    
+
+}
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
 }
 
 video iframe {
@@ -70,6 +75,7 @@ a:hover {
     color: #00ff40;
     ;
 }
+
 .contactiframe {
     width: 100vw;
     height: 80vh;
