@@ -5,6 +5,7 @@
     text-align: center;
     padding: 20px;
     background-attachment: fixed;
+    flex-wrap: wrap;
     
 }
 
@@ -67,4 +68,9 @@ a {
 a:hover {
     color: #00ff40;
     ;
+}
+.contactiframe {
+    width: 100vw;
+    height: 80vh;
+    border: none;
 }
