@@ -12,11 +12,16 @@ header, nav, main {
     padding: 40px;
 }
 
-/* #menubox{
-    
-    position: fixed;
-    left: 500px;
+#navbar {
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+}
+/* vid test */
+/* *{
+    border: 1px dashed red;
 } */
+
 
 video iframe {
     max-width: 100%;
