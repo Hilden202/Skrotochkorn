@@ -8,9 +8,15 @@
     flex-wrap: wrap;
 
 }
-header{
+header, nav, main {
     padding: 40px;
 }
+
+/* #menubox{
+    
+    position: fixed;
+    left: 500px;
+} */
 
 video iframe {
     max-width: 100%;
@@ -39,12 +45,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
-.menu-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
 
 .menubutton {
     text-decoration: none;
