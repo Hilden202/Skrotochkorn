@@ -25,6 +25,13 @@ header, nav, main {
     gap: 10px;
 }
 
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* vid test */
 /* *{
     border: 1px dashed red;
