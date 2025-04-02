@@ -1,22 +1,30 @@
-.header {
+.header-top {
     background-image: url('../images/header2.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
-    padding: 20px;
     background-attachment: fixed;
-    flex-wrap: wrap;
-
+}
+.header-bottom {
+    position: sticky;
+    top: 0;
+    background-image: url('../images/header2.png'); /* Samma bild */
+    background-repeat: no-repeat;
+    background-position: center; /* Anpassa positionen */
+    background-attachment: fixed;
+    background-color: #ffffff;
+    padding: 10px;
 }
 header, nav, main {
-    padding: 40px;
+    padding: 15px;
 }
 
 #navbar {
-    position: sticky;
-    top: 0px;
+    display: flex;
     justify-content: center;
+    gap: 10px;
 }
+
 /* vid test */
 /* *{
     border: 1px dashed red;
@@ -45,7 +53,7 @@ h1 {
     color: #000;
     text-align: center;
     font-size: 2.5em;
-    margin: 20px 0;
+    margin-bottom: 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
