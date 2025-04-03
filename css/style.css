@@ -133,16 +133,17 @@ border-width: 5px;
 border-collapse: collapse;
 
 }
-th {
+th, td {
     padding: 10px;
     border-width: 2px;
     border-style: solid;
     border-color: #000;
-    column-width: 200px;    
 }
-td {
-    padding: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #000;
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 14px; /* Justera textstorlek */
+    }
+    th, td {
+        padding: 8px; /* Minska padding på små skärmar */
+    }
 }
