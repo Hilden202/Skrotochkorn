@@ -1,3 +1,15 @@
+.mainimg {
+    width: 40em;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-style: ridge;
+    border-radius: 20px;
+}
 .header-top {
     background-image: url('../images/header2.png');
     background-position: center;
@@ -5,15 +17,33 @@
     background-position: center;
     background-attachment: fixed;
 }
+@media (max-width: 768px) {
+    .header-top {
+        background-image: url('../images/header2.png'); /* Om du har en annan bild för mobilen kan du byta här */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Bättre för mobil, så att bakgrunden scrollar med innehållet */
+        background-size: cover; /* Gör att bilden täcker hela bakgrunden */
+    }
+}
 .header-bottom {
     position: sticky;
     top: 0;
     background-image: url('../images/header2.png'); /* Samma bild */
     background-repeat: no-repeat;
-    background-position: center; /* Anpassa positionen */
+    background-position: center;
     background-attachment: fixed;
     background-color: #ffffff;
     padding: 10px;
+}
+@media (max-width: 768px) {
+    .header-bottom {
+        background-image: url('../images/header2.png'); /* Om du har en annan bild för mobilen kan du byta här */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Bättre för mobil, så att bakgrunden scrollar med innehållet */
+        background-size: cover; /* Gör att bilden täcker hela bakgrunden */
+    }
 }
 header, nav, main {
     padding: 15px;
@@ -31,7 +61,23 @@ header, nav, main {
         align-items: center;
     }
 }
+.menubutton {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: #595340;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: #000000 3px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    
+}
 
+.menubutton:hover {
+    background-color: #7a7a5c;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
 /* vid test */
 /* *{
     border: 1px dashed red;
@@ -42,44 +88,12 @@ video iframe {
     height: auto;
 }
 
-.mainimg {
-    width: 40em;
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-style: ridge;
-    border-radius: 20px;
-}
-
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #000;
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 0px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-}
-
-
-.menubutton {
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    background-color: #595340;
-    padding: 10px 20px;
-    border-radius: 12px;
-    border: #000000 3px solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-}
-
-.menubutton:hover {
-    background-color: #7a7a5c;
-    color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
@@ -100,5 +114,20 @@ a:hover {
 }
 table{
 border-color: green;
+border-width: 5px;
+border-collapse: collapse;
 
+}
+th {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    column-width: 200px;    
+}
+td {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
 }
