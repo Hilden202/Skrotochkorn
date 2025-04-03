@@ -128,6 +128,7 @@ a:hover {
     border: none;
 }
 table{
+width: 100%;
 border-color: green;
 border-width: 5px;
 border-collapse: collapse;
