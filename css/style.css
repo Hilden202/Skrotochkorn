@@ -35,6 +35,8 @@
     background-attachment: fixed;
     background-color: #ffffff;
     padding: 10px;
+    z-index: 100; /* Gör att den ligger ovanpå annat innehåll */
+
 }
 @media (max-width: 768px) {
     .header-bottom {
@@ -90,6 +92,7 @@ header, nav, main {
     height: 0;
     overflow: hidden;
     max-width: 100%; /* För att begränsa videons bredd */
+
 }
 
 .video-container iframe {
