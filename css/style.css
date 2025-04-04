@@ -19,14 +19,13 @@
 }
 @media (max-width: 768px) {
     .header-top {
-        background-image: url('../images/header2.png');
-        background-position: center;
-        background-repeat: no-repeat;
         background-attachment:initial;
+        background-position-y:center;
     }
 }
 .header-bottom {
     position: sticky;
+    top: 0;
     background-image: url('../images/header2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -37,11 +36,8 @@
 }
 @media (max-width: 768px) {
     .header-bottom {
-        background-image: url('../images/header2.png');
-        background-position: center;
-        background-repeat: no-repeat;
         background-attachment:initial;
-        z-index: 100;
+        background-position-y:bottom;
     }
 }
 header, nav, main {
