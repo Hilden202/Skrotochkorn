@@ -22,19 +22,16 @@
         background-image: url('../images/header2.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-size: auto;
+        background-attachment:initial;
     }
 }
 .header-bottom {
     position: sticky;
-    top: 0;
     background-image: url('../images/header2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-color: #ffffff;
-    padding: 10px;
     z-index: 100;
 
 }
@@ -43,8 +40,8 @@
         background-image: url('../images/header2.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-size: auto;
+        background-attachment:initial;
+        z-index: 100;
     }
 }
 header, nav, main {
