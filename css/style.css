@@ -19,32 +19,32 @@
 }
 @media (max-width: 768px) {
     .header-top {
-        background-image: url('../images/header2.png'); /* Om du har en annan bild för mobilen kan du byta här */
+        background-image: url('../images/header2.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: scroll; /* Bättre för mobil, så att bakgrunden scrollar med innehållet */
-        background-size: cover; /* Gör att bilden täcker hela bakgrunden */
+        background-attachment:fixed;
+        background-size: cover;
     }
 }
 .header-bottom {
     position: sticky;
     top: 0;
-    background-image: url('../images/header2.png'); /* Samma bild */
+    background-image: url('../images/header2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-color: #ffffff;
     padding: 10px;
-    z-index: 100; /* Gör att den ligger ovanpå annat innehåll */
+    z-index: 100;
 
 }
 @media (max-width: 768px) {
     .header-bottom {
-        background-image: url('../images/header2.png'); /* Om du har en annan bild för mobilen kan du byta här */
+        background-image: url('../images/header2.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: scroll; /* Bättre för mobil, så att bakgrunden scrollar med innehållet */
-        background-size: cover; /* Gör att bilden täcker hela bakgrunden */
+        background-attachment:fixed;
+        background-size: cover;
     }
 }
 header, nav, main {
