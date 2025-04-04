@@ -33,8 +33,6 @@
     background-color: #ffffff;
     z-index: 100;
     border-bottom: 5px solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
 }
 @media (max-width: 768px) {
     .header-bottom {
